@@ -43,14 +43,16 @@ body {
   background-color: lightblue;
   border: solid 5px rgb(112, 169, 255);
   margin: 5px;
+  transition: all 0.2s ease-in-out; /* Transição suave para o hover */
+  border-radius: 10px;
 }
 
 /* Daqui pra baixo, tudo que tiver um texto verde no final foi feito com IA, é mais pra estética também q eu n aprendi ainda*/
 
 .buttons button:hover {
-  background-color: rgb(112, 169, 255); /* Muda a cor de fundo ao passar o mouse */
-  transform: scale(1.1); /* Aumenta o botão levemente */
-  border-color: white; /* Muda a cor da borda */
+  background-color: rgb(112, 169, 255); 
+  transform: scale(1.1);
+  border-color: white; 
 }
 
 .buttons button:active {
@@ -114,4 +116,51 @@ body {
   margin-top: 20px;
   font-size: 24px;
   z-index: 10; /* Garante que o texto fique acima de outros elementos */
+}
+
+#btnPlus:hover {
+  background-color: rgb(75, 128, 75); 
+  transform: scale(1.1);
+  border-color: white; 
+}
+
+#btnMinus:hover {
+  background-color: rgb(75, 128, 75); 
+  transform: scale(1.1);
+  border-color: white; 
+}
+#btnMulty:hover {
+  background-color: rgb(75, 128, 75); 
+  transform: scale(1.1);
+  border-color: white; 
+}
+#btnDiv:hover {
+  background-color: rgb(75, 128, 75); 
+  transform: scale(1.1);
+  border-color: white;
+}
+#btnEqual:hover {
+  background-color: rgb(160, 160, 138);
+  transform: scale(1.1);
+  border-color: white;
+}
+#btnEqual:active {
+  transform: scale(0.9);
+  background-color: rgb(104, 100, 42);
+}
+#btnPlus:active {
+  transform: scale(0.9);
+  background-color: rgb(42, 104, 42);
+}
+#btnMinus:active {
+  transform: scale(0.9);
+  background-color: rgb(42, 104, 42);
+}
+#btnMulty:active {
+  transform: scale(0.9);
+  background-color: rgb(42, 104, 42);
+}
+#btnDiv:active {
+  transform: scale(0.9);
+  background-color: rgb(42, 104, 42);
 }
